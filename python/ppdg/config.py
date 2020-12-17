@@ -12,6 +12,7 @@ def readconfig(fname):
             WRKDIR      = os.path.join(os.getcwd(), 'models'),
             RFSPP       = "",
             CHARMM      = "",
+            FFPATH      = "",
             ROSETTA     = "",
             ROSETTABIN  = ""
         )
@@ -20,6 +21,7 @@ def readconfig(fname):
     ppdg.WRKDIR = config.get('ppdg', 'WRKDIR')
     ppdg.RFSPP  = config.get('ppdg', 'RFSPP')
     ppdg.CHARMM = config.get('ppdg', 'CHARMM')
+    ppdg.FFPATH = config.get('ppdg', 'FFPATH')
     ppdg.ROSETTA = config.get('ppdg', 'ROSETTA')
     ppdg.ROSETTABIN = config.get('ppdg', 'ROSETTABIN')
 
