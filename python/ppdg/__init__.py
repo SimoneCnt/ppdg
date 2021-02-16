@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from .config import readconfig, printconfig
 from .pdb import Pdb
 from .get_descriptors import get_descriptors, get_descriptors_average, clean, eval_pkl
 
+from . import config
 from . import tools
 from . import makemodel
 from . import scoring
