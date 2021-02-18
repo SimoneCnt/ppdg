@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'ppdg',
-    version = '0.1',
+    version = '0.2',
     description = 'Build protein-protein complexes and calculate binding affinity',
     long_description = 'Build protein-protein complexes and calculate binding affinity',
     url = 'https://github.com/SimoneCnt/ppdg',
